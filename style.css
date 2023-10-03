@@ -20,7 +20,7 @@ body {
 } 
 
 .descricao {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: white;
   text-align: center;
   height: 40px; }
@@ -29,7 +29,6 @@ body {
   width: 200px;
   height: 30px;
   margin: 1em;
-  font-family: 'Poppins', sans-serif;
   color: #ffffff;
   font-size: 20px;
   font-weight: bold;
@@ -75,6 +74,16 @@ body {
     font-family: 'Pixelify Sans';
 }
 
+footer {
+  height: 100px;
+  padding-top: 10px;
+  color: rgba(255, 255, 255, 0.418);
+}
+
+footer p {
+  text-align: center;
+}
+
 a{
     text-decoration: none; 
 }
@@ -112,8 +121,22 @@ a{
       height: 60px;
   }
 
+  .descricao {
+    color: #ffffff;
+    text-shadow: 
+               -1px -1px 0px #3f3f3f, 
+               -1px 1px 0px #3f3f3f,                    
+                1px -1px 0px #3f3f3f,                  
+                1px 0px 0px #3f3f3f;
+  }
+
   .nome {
       font-size: 16px;
+      text-shadow: 
+               -1px -1px 0px #3f3f3f, 
+               -1px 1px 0px #3f3f3f,                    
+                1px -1px 0px #3f3f3f,                  
+                1px 0px 0px #3f3f3f;
   }
 
   .bottom {
