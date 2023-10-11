@@ -23,7 +23,8 @@ body {
   font-family: 'Poppins', sans-serif;
   color: white;
   text-align: center;
-  height: 40px; }
+  height: 40px; 
+}
 
 .nome{
   width: 200px;
@@ -128,6 +129,7 @@ a{
                -1px 1px 0px #3f3f3f,                    
                 1px -1px 0px #3f3f3f,                  
                 1px 0px 0px #3f3f3f;
+                padding-bottom: 20px;
   }
 
   .nome {
